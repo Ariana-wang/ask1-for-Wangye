@@ -1,0 +1,7 @@
+一共有2组实验对比分析，每组实验有12个模组
+1.对打点的TestResult.txt文件提取每个通道的以下数值：
+[OffsetResult]
+[NoiseResult]
+[SignalResult]
+[DriftResult]
+2.对两组做分析不＋liner前和＋liner后以上四个数值的变化

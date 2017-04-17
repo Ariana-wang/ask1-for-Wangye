@@ -1,0 +1,55 @@
+[ModuleInfo]
+ManufacturerID   = 4104
+ModuleID         = 040
+FirmwareVersion  = 0016
+UID              = 002F-006A2001-33974E45
+ChannelNumber    = 3
+GainReg          = 4
+
+[OffsetResult]
+Channel1Offset_mV = -75
+Channel1ADC24bits = 8178892
+Channel2Offset_mV = 68
+Channel2ADC24bits = 8578749
+Channel3Offset_mV = 1
+Channel3ADC24bits = 8391404
+
+[NoiseResult]
+Channel1NoisePeak_uV   = 11.52
+Channel1NoiseStdDev_uV = 3.75
+Channel2NoisePeak_uV   = 15.84
+Channel2NoiseStdDev_uV = 4.07
+Channel3NoisePeak_uV   = 11.88
+Channel3NoiseStdDev_uV = 3.94
+
+[SignalResult]
+Signal1Channel1_uV = 1658.16
+Signal1Channel2_uV = 1749.24
+Signal1Channel3_uV = 1213.20
+
+[DriftResult]
+Channel1Drift_uV = 124.56
+Channel2Drift_uV = -21.96
+Channel3Drift_uV = 174.60
+
+[FinalResult]
+Result = NG
+
+[TestDataComment]
+Comment = (null)
+
+[TestResultComment]
+QRCode 		= (null)
+ModuleInfo	= ManufacturerID OK(4104).  ModuleID OK(40).  FirmwareVersion OK(16).  GainReg OK(4).  ChannelNumber OK(3).  
+VBias		= VBiasP Channel 1 OK(1426).  VBiasN Channel 1 OK(1501).  VBiasP Channel 2 OK(1565).  VBiasN Channel 2 OK(1497).  VBiasP Channel 3 OK(1515).  VBiasN Channel 3 OK(1514).  
+Resistance	= Resistance Channel 1 OK(8048).  Resistance Channel 2 OK(7822).  Resistance Channel 3 OK(8639).  
+Offset 		= Offset Channel 1 OK(-75).  Offset Channel 2 OK(68).  Offset Channel 3 OK(1).  
+Noise		= Noise Channel 1 OK(11.52).  Noise Channel 2 OK(15.84).  Noise Channel 3 OK(11.88).  
+Signal	 	= Signal 1 Channel 1 OK(1658.16).  Signal 1 Channel 2 OK(1749.24).  Signal 1 Channel 3 OK(1213.20).  
+Drift		= Drift Channel 1 OK(124.56).  Drift Channel 2 OK(-21.96).  Drift Channel 3 Above Upper Limit(174.60 > 133.30).  
+Final		= (null)
+
+[TestInfo]
+SoftwareVersion 		= v1.22
+TestData		 		= 20170414
+TestTime		 		= 135255186
